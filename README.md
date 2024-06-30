@@ -1,7 +1,6 @@
 # 아키네이터의 클라이언트
 
 React Native
-React Native Redux
 
 ## 핵심 역할들
 1. 서버와의 통신
@@ -24,10 +23,4 @@ React Native Redux
     identification:json,
     data:json
 }
-
-    (참고: 서버->클라 : {result:int, message:string, data:json})
-
-## 사용법
-1. '.env' 파일 메인 디렉토리에 추가.
-2. '.env' 파일에 "OPENAI_API_KEY={your openapi key}" 삽입 ({your openapi key}에 작동하는 openapi 키 발급받아서 삽입, 파인튜닝 완료되어야 함)
-3. 콘솔에 "npm start" 입력후 엔터
+    (참고, 서버->클라 : {result:int, message:string, data:json})
