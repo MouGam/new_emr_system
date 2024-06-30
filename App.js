@@ -13,6 +13,7 @@ import Result from './screen/patient/result';
 import MedicalStaffMain from './screen/medical_staff/main';
 import List from './screen/medical_staff/list';
 import Detail from './screen/medical_staff/detail';
+import PrevDetail from './screen/medical_staff/prevdetail';
 import Diagnosis from './screen/medical_staff/diagnosis';
 
 import store from "./redux/store"
@@ -39,6 +40,7 @@ export default function App(){
           <Stack.Screen name="medicalstaff" component={MedicalStaffMain} options={{gestureEnabled: false}}/>
           <Stack.Screen name="list" component={List}/>
           <Stack.Screen name="detail" component={Detail}/>
+          <Stack.Screen name="prevdetail" component={PrevDetail}/>
           <Stack.Screen name="diagnosis" component={Diagnosis}/>
           
         </Stack.Navigator>
